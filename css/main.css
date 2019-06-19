@@ -1,0 +1,18 @@
+/* line 2, ../../main portfolio/sass/main.scss */
+.apple {
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  /* line 14, ../../main portfolio/sass/main.scss */
+  .apple {
+    font-size: 24px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
+
+.img-design{
+  box-shadow: 2px 5px #646970;
+  border: 1px solid black;
+}
