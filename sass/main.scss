@@ -1,0 +1,18 @@
+$base-font: 16px;
+.apple{
+  font-size:$base-font;
+}
+
+@mixin desktop {
+  @media (min-width: 768px){
+    @content;
+  }
+  
+}
+
+@include desktop {
+  .apple{
+    font-size:24px;
+  }
+}
+
