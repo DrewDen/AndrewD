@@ -1,22 +1,38 @@
-$base-font: 16px;
-.apple{
-  font-size:$base-font;
-}
 
-@mixin desktop {
-  @media (min-width: 768px){
-    @content;
-  }
-  
-}
-
-@include desktop {
-  .apple{
-    font-size:24px;
-  }
-}
 
 .img-design{
   box-shadow: 2px 5px #646970;
   border: 1px solid black;
 }
+.navbar{
+  background-color: #e6f1ff;
+};
+
+
+.jumbotron{
+  background: url("../image/computer-image2.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  padding-top:15%;
+  padding-bottom: 15%;
+  h1{ 
+    font-size: 42px;
+    color:#ffffff;
+    text-transform: uppercase;
+  }
+  p{
+    color:rgb(255, 255, 255);
+  }
+  .divider{
+    border-bottom: 4px solid gray;
+    padding-bottom:24px;
+  }
+}
+
+
+  
+  
+ 
+  
+ 

@@ -1,19 +1,40 @@
-/* line 2, ../../main portfolio/sass/main.scss */
-.apple {
-  font-size: 16px;
-}
-
-@media (min-width: 768px) {
-  /* line 14, ../../main portfolio/sass/main.scss */
-  .apple {
-    font-size: 24px;
-  }
-}
-
-/* line 19, ../../main portfolio/sass/main.scss */
+/* line 3, ../main portfolio/sass/main.scss */
 .img-design {
   box-shadow: 2px 5px #646970;
   border: 1px solid black;
+}
+
+/* line 7, ../main portfolio/sass/main.scss */
+.navbar {
+  background-color: #e6f1ff;
+}
+
+/* line 12, ../main portfolio/sass/main.scss */
+.jumbotron {
+  background: url("../image/computer-image2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
+/* line 19, ../main portfolio/sass/main.scss */
+.jumbotron h1 {
+  font-size: 42px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+/* line 24, ../main portfolio/sass/main.scss */
+.jumbotron p {
+  color: white;
+}
+
+/* line 27, ../main portfolio/sass/main.scss */
+.jumbotron .divider {
+  border-bottom: 4px solid gray;
+  padding-bottom: 24px;
 }
 
 /*# sourceMappingURL=main.css.map */

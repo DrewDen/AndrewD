@@ -5,8 +5,8 @@
 		"../sass/main.scss"
 	],
 	"sourcesContent": [
-		"$base-font: 16px;\r\n.apple{\r\n  font-size:$base-font;\r\n}\r\n\r\n@mixin desktop {\r\n  @media (min-width: 768px){\r\n    @content;\r\n  }\r\n  \r\n}\r\n\r\n@include desktop {\r\n  .apple{\r\n    font-size:24px;\r\n  }\r\n}\r\n\r\n"
+		"\r\n\r\n.img-design{\r\n  box-shadow: 2px 5px #646970;\r\n  border: 1px solid black;\r\n}\r\n.navbar{\r\n  background-color: #e6f1ff;\r\n};\r\n\r\n\r\n.jumbotron{\r\n  background: url(\"../image/computer-image2.jpg\");\r\n  background-repeat: no-repeat;\r\n  background-size:cover;\r\n  background-position: center;\r\n  padding-top:15%;\r\n  padding-bottom: 15%;\r\n  h1{ \r\n    font-size: 42px;\r\n    color:#ffffff;\r\n    text-transform: uppercase;\r\n  }\r\n  p{\r\n    color:rgb(255, 255, 255);\r\n  }\r\n  .divider{\r\n    border-bottom: 4px solid gray;\r\n    padding-bottom:24px;\r\n  }\r\n}\r\n\r\n\r\n  \r\n  \r\n \r\n  \r\n "
 	],
 	"names": [],
-	"mappings": ";AACA,AAAA,MAAM,CAAA;EACJ,SAAS,EAFC,IAAI;CAGf;;AAGC,MAAM,EAAE,SAAS,EAAE,KAAK;;EAOxB,AAAA,MAAM,CAAA;IACJ,SAAS,EAAC,IAAI;GACf"
+	"mappings": ";AAEA,AAAA,WAAW,CAAA;EACT,UAAU,EAAE,eAAe;EAC3B,MAAM,EAAE,eAAe;CACxB;;;AACD,AAAA,OAAO,CAAA;EACL,gBAAgB,EAAE,OAAO;CAC1B;;;AAGD,AAAA,UAAU,CAAA;EACR,UAAU,EAAE,mCAAmC;EAC/C,iBAAiB,EAAE,SAAS;EAC5B,eAAe,EAAC,KAAK;EACrB,mBAAmB,EAAE,MAAM;EAC3B,WAAW,EAAC,GAAG;EACf,cAAc,EAAE,GAAG;CAapB;;;AAnBD,AAOE,UAPQ,CAOR,EAAE,CAAA;EACA,SAAS,EAAE,IAAI;EACf,KAAK,EAAC,OAAO;EACb,cAAc,EAAE,SAAS;CAC1B;;;AAXH,AAYE,UAZQ,CAYR,CAAC,CAAA;EACC,KAAK,EAAC,KAAkB;CACzB;;;AAdH,AAeE,UAfQ,CAeR,QAAQ,CAAA;EACN,aAAa,EAAE,cAAc;EAC7B,cAAc,EAAC,IAAI;CACpB"
 }
