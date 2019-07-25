@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,66 +13,269 @@
     <title>Drews poertfolio page</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">Andrew Denson</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav ml-auto">
-                        <a class="nav-item nav-link pr-3" href="#">About <span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link pr-3" href="#">Projects</a>
-                        <a class="nav-item nav-link pr-3" href="#">Abilities</a>
-                        <a class="nav-item nav-link pr-3" href="#">Contact</a>
+
+    <!-- Navigation bar  -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">       
+        <a class="navbar-brand" href="#">Andrew Denson</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link pr-3" href="#projects">Projects<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link pr-3" href="#about">About</a>
+                <a class="nav-item nav-link pr-3" href="#skills">Abilities</a>
+                <a class="nav-item nav-link pr-3" href="#">Contact</a>
+            </div>
+        </div> 
+    </nav>
+
+    <!--========== Main header ==========-->
+    <div class="jumbotron jumbotron-fluid mt-3">
+        <div class="container text-center background-img">
+            <h1 class="mb-3">Front-End Developer </h1>
+            <!-- first section break -->
+            <div class="divider-custom d-flex justify-content-center mb-4">
+                <div class="divider-custom-line bg-white mr-3 mt-3">
+                </div>
+                <div><i class="fas fa-bug fa-3x"></i></div>
+                <div class="divider-custom-line bg-white ml-3 mt-3">
                 </div>
             </div>
-        </div>  
-    </nav>
-    
-    <div class="jumbotron jumbotron-fluid mt-3">
-        <div class="container text-sm-center background-img">
-            <h1 class="text-center">Front-End Developer </h1>
-            <p class="lead divider">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <p class="text-monospace mx-auto">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
         </div>
     </div>
-      
+
+    
+    
+    <!-- ========== Project section ==========-->
+    <!-- second section break -->
+    <div class="container my-5" id="projects" >
+        <h1 class="text-center">Projects</h1>
+        <div class="divider-custom d-flex justify-content-center mb-4">
+            <div class="divider-custom-line bg-dark mr-3 mt-3">
+            </div>
+            <div><i class="fas fa-bug fa-3x"></i></div>
+            <div class="divider-custom-line bg-dark ml-3 mt-3">
+            </div>
+        </div>
+    </div>
 
     <div class="container">
-        <div class="row my-5">
+        <div class="row">
+            <div class="col-md-6 col-lg-4">
+                <div class="card mb-3">
+                    <img src="image/matching-card.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Memory Game</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter">Launch demo</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-4">
+                <div class="card mb-3">
+                    <img src="image/bug-modal.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Classic Arcade Clone</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter">Launch demo</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-4">
+                <div class="card mb-3">
+                    <img src="image/restaurant-card.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Restaurant Review App</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter">Launch demo</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-4">
+                <div class="card mb-3">
+                    <img src="image/feedertest-card.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Feeder Reader Testing</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter">Launch demo</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-4">
+                <div class="card mb-3">
+                    <img src="image/donate-card.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Donate & Find Prototype</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter">Launch demo</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-4">
+                <div class="card mb-3">
+                    <img src="image/initab.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Initab Clone</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter">Launch demo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    
+
+    <!--========== About me ==========-->
+    <!-- third section break -->
+    <div class="container my-5" id="about">
+        <h1 class="text-center">About me</h1>
+        <div class="divider-custom d-flex justify-content-center mb-4">
+            <div class="divider-custom-line bg-dark mr-3 mt-3">
+            </div>
+            <div><i class="fas fa-bug fa-3x"></i></div>
+            <div class="divider-custom-line bg-dark ml-3 mt-3">
+            </div>
+        </div>
+    </div>
+   
+    <div class="container-fluid mb-5">
+        <div class="row">
+            <div class="col-lg-3">
+                <img src="image/resized-about-me.png" class=" img-thumbnail rounded-lg about-img " alt="picture for about me" >
+            </div>
+            <div class="col-lg-9 mt-4">
+                    <p class="lead text-center">
+                    My passion for web development began after building my first website. Wanting to learn more about layout and design 
+                    used to optimize website interaction, I started learning coding, which developed into a keen interest in web creation.
+                    I have fifteen years of management experience, which included supervising from five to twenty employees, all with 
+                    varied learning styles and backgrounds. I thoroughly enjoy problem solving, thinking out of the box and adapt well to 
+                    change and the demands of the workforce.   
+                    Currently, I am studying Front-End Development to improve my expertise with knowledge and experience with HTML, CSS, and JavaScript. In addition, I actively learn and experiment with new coding techniques.  
+                    I hold an Associate Degree in Applied Business, as well as Udacity certification for a Front-End Nanodegree.            
+                    </p>  
+            </div>
+        </div>      
+    </div>
+
+    
+
+    <!-- Ablities section -->
+    <!--========== fourth section break ==========-->
+    <div class="container my-5" id="skills">
+        <h1 class="text-center">Skills</h1>
+        <div class="divider-custom d-flex justify-content-center mb-4">
+            <div class="divider-custom-line bg-dark mr-3 mt-3">
+            </div>
+            <div><i class="fas fa-bug fa-3x"></i></div>
+            <div class="divider-custom-line bg-dark ml-3 mt-3">
+            </div>
+        </div>
+    </div>
+
+    <div class="container skills">
+        <div class="row">
             <div class="col">
                 <h2 class="text-center">Technologies</h2>
-                <ul class="list-unstyled list-group list-group-horizontal pt-4">
-                    <li class=" flex-fill"><img src="image/html5.png" class="img-thumbnail img-design"></li>
-                    <li class=" flex-fill"><img src="image/css.png" class="img-thumbnail img-design"></li>
-                    <li class=" flex-fill"><img src="image/javascript logo.png" class="img-thumbnail img-design"></li>
-                    <li class=" flex-fill"><img src="image/github logo.png" class="img-thumbnail img-design"></li>
-                    <li class=" flex-fill"><img src="image/git logo.png" class="img-thumbnail img-design"></li>
+                <ul class="list-unstyled pt-5 d-flex justify-content-md-between flex-wrap">
+                    <li class="flex-fill "><img src="image/html5.png" class="img-thumbnail img-design"></li>
+                    <li class="flex-fill "><img src="image/css.png" class="img-thumbnail img-design"></li>
+                    <li class="flex-fill "><img src="image/javascript logo.png" class="img-thumbnail img-design"></li>
+                    <li class="flex-fill "><img src="image/github logo.png" class="img-thumbnail img-design"></li>
+                    <li class="flex-fill "><img src="image/git logo.png" class="img-thumbnail img-design"></li>
+                    <li class="flex-fill "><img src="image/sass.png" class="img-thumbnail img-design"></li>
                 </ul>
             </div>
         </div>
-        <div class="row my-5">    
-            <div class="col">
+        <div class="row">
+           <div class="col my-5">
                 <h2 class="text-center">Frameworks</h2>
-                <ul class="list-unstyled list-group list-group-horizontal pt-4">
+                <ul class="list-unstyled pt-5 d-flex justify-content-md-between flex-wrap">
                     <li class=" flex-fill"><img src="image/bootstrap logo.png" class="img-thumbnail img-design"></li>
                     <li class=" flex-fill"><img src="image/jquery logo.png" class="img-thumbnail img-design"></li>
                     <li class=" flex-fill"><img src="image/jasmine logo.png" class="img-thumbnail img-design"></li>
                 </ul>
             </div>
         </div>
-        <div class="row">    
-            <div class="col">
+        <div class="row">      
+            <div class="col my-5">
                 <h2 class="text-center">Soft Skills</h2>
-                <ul class="list-unstyled list-group list-group-horizontal pt-4">
-                    <li class="flex-fill list-group-item">Teamwork</li>
-                    <li class="flex-fill list-group-item">Problem Sloving</li>
-                    <li class="flex-fill list-group-item">Adaptability</li>
+                <ul class="list-unstyled pt-5 d-flex justify-content-md-between flex-wrap skill-style ">
+                    <li class="flex-fill">Teamwork</li>
+                    <li class="flex-fill">Problem Sloving</li>
+                    <li class="flex-fill">Adaptability</li>
+                    <li class="flex-fill">Leadership</li>
                 </ul>
             </div>
+        </div>    
+    
+    </div>
+
+    
+    
+    
+
+    <!-- modify this form HTML and place wherever you want your form -->
+
+    <!-- fifth section break -->
+    <div class="container my-5">
+        <h1 class="text-center">Skills</h1>
+        <div class="divider-custom d-flex justify-content-center">
+            <div class="divider-custom-line bg-dark mr-3 mt-3">
+            </div>
+            <div><i class="fas fa-bug fa-3x"></i></div>
+            <div class="divider-custom-line bg-dark ml-3 mt-3">
+            </div>
         </div>
-    </div> <!--/.container-->
+    </div>
+
+    <form
+    action="https://formspree.io/mzyqgzlx"
+    method="POST"
+    >
+    <label>
+    Your email:
+    <input type="text" name="_replyto">
+    </label>
+    <label>
+    Your message:
+    <textarea name="message"></textarea>
+    </label>
+
+    <!-- your other form fields go here -->
+
+    <button type="submit">Send</button>
+    </form>
+
+
+
+    <!-- Modal One -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header d-flex justify-content-end">
+                        <div class="mx-2"><i class="fas fa-bug fa-2x"></i></div>
+                        <h3>Memory Game</h3>
+                </div>      
+                <div class="modal-body">
+                        <img src="image/matching-modal.png" class="img-fluid" alt="Responsive image">
+                        <p>text to see what it does</p>
+                </div> 
+                <div class="modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                </div> 
+            </div>
+        </div>
+    </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
