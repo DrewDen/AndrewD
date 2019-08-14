@@ -88,18 +88,28 @@ h2 {
 
 /* line 84, ../main portfolio/sass/main.scss */
 .jumbotron h1 {
-  font-size: 48px;
-  color: whitesmoke;
+  font-size: 50px;
+  color: white;
   text-transform: uppercase;
+  text-shadow: 3px 3px black;
+  font-weight: 900;
 }
 
-/* line 89, ../main portfolio/sass/main.scss */
+/* line 92, ../main portfolio/sass/main.scss */
 .jumbotron p {
   color: #fff9f9;
   width: 65%;
 }
 
-/* line 97, ../main portfolio/sass/main.scss */
+/* line 96, ../main portfolio/sass/main.scss */
+.jumbotron .tagline {
+  font-size: 1.4rem;
+  color: white;
+  text-shadow: 2px 2px black;
+  font-weight: 900;
+}
+
+/* line 107, ../main portfolio/sass/main.scss */
 .img-layout .about-img {
   border: 1px solid darkgray;
   background-color: whitesmoke;
@@ -109,7 +119,7 @@ h2 {
   margin-left: .75rem;
 }
 
-/* line 105, ../main portfolio/sass/main.scss */
+/* line 115, ../main portfolio/sass/main.scss */
 .img-layout p {
   font-size: .875rem;
   line-height: 1.6rem;
@@ -117,14 +127,14 @@ h2 {
 }
 
 @media only screen and (min-width: 300px) and (max-width: 700px) {
-  /* line 116, ../main portfolio/sass/main.scss */
+  /* line 126, ../main portfolio/sass/main.scss */
   .img-layout .about-img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     float: none;
   }
-  /* line 122, ../main portfolio/sass/main.scss */
+  /* line 132, ../main portfolio/sass/main.scss */
   .img-layout p {
     font-size: .875rem;
     line-height: 1.6rem;
@@ -133,19 +143,19 @@ h2 {
   }
 }
 
-/* line 134, ../main portfolio/sass/main.scss */
+/* line 144, ../main portfolio/sass/main.scss */
 .skills .img-design {
   box-shadow: 2px 5px #646970;
   border: 1px solid black;
 }
 
-/* line 138, ../main portfolio/sass/main.scss */
+/* line 148, ../main portfolio/sass/main.scss */
 .skills .skill-style {
   font-size: 36px;
   text-align: center;
 }
 
-/* line 143, ../main portfolio/sass/main.scss */
+/* line 153, ../main portfolio/sass/main.scss */
 .skills .skill-style .flex-fill {
   font-family: 'Roboto Slab', serif;
   font-size: 24px;
@@ -155,23 +165,23 @@ h2 {
   box-shadow: 5px 10px 8px #888888;
 }
 
-/* line 157, ../main portfolio/sass/main.scss */
+/* line 167, ../main portfolio/sass/main.scss */
 .card h5 {
   font-family: 'Roboto Slab', serif;
 }
 
-/* line 160, ../main portfolio/sass/main.scss */
+/* line 170, ../main portfolio/sass/main.scss */
 .card .project-modal:hover .card-img-top {
   opacity: .2;
   cursor: pointer;
 }
 
-/* line 165, ../main portfolio/sass/main.scss */
+/* line 175, ../main portfolio/sass/main.scss */
 .card .project-modal:hover .middle {
   opacity: 1;
 }
 
-/* line 169, ../main portfolio/sass/main.scss */
+/* line 179, ../main portfolio/sass/main.scss */
 .card .middle {
   transition: .5s ease;
   opacity: 0;
@@ -183,34 +193,34 @@ h2 {
   text-align: center;
 }
 
-/* line 180, ../main portfolio/sass/main.scss */
+/* line 190, ../main portfolio/sass/main.scss */
 .card .btn:focus {
   box-shadow: none;
 }
 
-/* line 184, ../main portfolio/sass/main.scss */
+/* line 194, ../main portfolio/sass/main.scss */
 .card .card-body {
   font-family: 'Roboto Slab', serif;
   height: 55px;
   background-color: rgba(173, 233, 233, 0.507);
 }
 
-/* line 191, ../main portfolio/sass/main.scss */
+/* line 201, ../main portfolio/sass/main.scss */
 footer {
   background-color: #e6e0e0de;
 }
 
-/* line 194, ../main portfolio/sass/main.scss */
+/* line 204, ../main portfolio/sass/main.scss */
 footer li a:link {
   color: black;
 }
 
-/* line 198, ../main portfolio/sass/main.scss */
+/* line 208, ../main portfolio/sass/main.scss */
 footer li a:visited {
   color: black;
 }
 
-/* line 202, ../main portfolio/sass/main.scss */
+/* line 212, ../main portfolio/sass/main.scss */
 footer li a:hover {
   color: #427c97;
 }
