@@ -1,3 +1,9 @@
+$('.nav-link, .navbar-brand').on('click',function() {
+  $('.navbar-collapse').collapse('hide');
+});
+
+
+
 // Example starter JavaScript for disabling form submissions if there are invalid fields
 (function() {
     'use strict';
@@ -16,3 +22,4 @@
       });
     }, false);
   })();
+ 
