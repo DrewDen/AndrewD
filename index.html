@@ -1,22 +1,500 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <script src="https://kit.fontawesome.com/c9ccfe53c4.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/c9ccfe53c4.js"></script>
     <title>Drews poertfolio page</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
+</head>
+<body>
+
+
+    <!--========== Navigation bar ==========-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">       
+        <a class="navbar-brand" href="#">Andrew Denson</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link pr-3" href="#projects">Projects<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link pr-3" href="#about">About</a>
+                <a class="nav-item nav-link pr-3" href="#skills">Skills</a>
+                <a class="nav-item nav-link pr-3" href="#contactme">Contact</a>
+            </div>
+        </div> 
+    </nav>
+
+
+    <!--========== Main header ==========-->
+    <div class="jumbotron jumbotron-fluid mt-5">
+        <div class="container text-center background-img">
+            <h1 class="mb-3">Front-End Developer </h1>
+            <!-- first section break -->
+            <div class="divider-custom d-flex justify-content-center mb-4">
+                <div class="divider-custom-line bg-white mr-3 mt-3">
+                </div>
+                <div><i class="fas fa-bug fa-3x"></i></div>
+                <div class="divider-custom-line bg-white ml-3 mt-3">
+                </div>
+            </div>
+            <p class="tagline mx-auto">I design and develop friendly interactive web-based applications.</p>
+        </div>
+    </div>
+
+
+    <!-- ========== Project section ==========-->
+    <!-- second section break -->
+    <div class="container my-5" id="projects" >
+        <h1 class="text-center">Projects</h1>
+        <div class="divider-custom d-flex justify-content-center mb-4">
+            <div class="divider-custom-line bg-dark mr-3 mt-3">
+            </div>
+            <div><i class="fas fa-bug fa-3x"></i></div>
+            <div class="divider-custom-line bg-dark ml-3 mt-3">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-4">
+                <div class="card mb-5">
+                    <div class="project-modal">
+                        <img src="image/matching-card.png" class="card-img-top" alt="..." >
+                        <dv class="middle">
+                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#memoryGame">Project Information</button>
+                        </dv>
+                    </div>    
+                    <div class="card-body">
+                        <h5 class="card-title" >Memory Game</h5>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-4">
+                <div class="card mb-5">
+                    <div class="project-modal">
+                        <img src="image/bug-card.png" class="card-img-top" alt="...">
+                        <div class="middle">
+                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#classicArcade">Project Information</button>
+                        </div>
+                    </div>    
+                    <div class="card-body">
+                        <h5 class="card-title">Classic Arcade Clone</h5>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-4">
+                <div class="card mb-5">
+                    <div class="project-modal">
+                        <img src="image/restaurant-card.png" class="card-img-top" alt="...">
+                        <div class="middle">
+                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#restaurantApp">Project Information</button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Restaurant Review App</h5>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-4">
+                <div class="card mb-5">
+                    <div class="project-modal">
+                        <img src="image/feedertest-card.png" class="card-img-top" alt="...">
+                        <div class="middle">
+                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#feedTest">Project Information</button>
+                        </div>
+                    </div>    
+                    <div class="card-body">
+                        <h5 class="card-title">Feeder Reader Testing</h5>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-4">
+                <div class="card mb-5">
+                    <div class="project-modal">
+                        <img src="image/donatefind-card.png" class="card-img-top" alt="...">
+                        <div class="middle">
+                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#donateFind">Project Information</button>
+                        </div>
+                    </div>    
+                    <div class="card-body">
+                        <h5 class="card-title">Donate & Find Prototype</h5>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-4">
+                <div class="card mb-5">
+                    <div class="project-modal">
+                        <img src="image/initab-card.png" class="card-img-top" alt="...">
+                        <div class="middle">
+                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#inatabClone">Project Information</button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Initab Clone</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--========== About me section ==========-->
+    <!-- third section break -->
+    <div class="container my-4" id="about">
+        <h1 class="text-center">About me</h1>
+        <div class="divider-custom d-flex justify-content-center mb-4">
+            <div class="divider-custom-line bg-dark mr-3 mt-3">
+            </div>
+            <div><i class="fas fa-bug fa-3x"></i></div>
+            <div class="divider-custom-line bg-dark ml-3 mt-3">
+            </div>
+        </div>
+    </div>
+   
+    <div class="container-fluid mb-5 "></div>
+        <div class="row">
+            <div class="col img-layout">
+                <img src="image/resized-about-me.png" class="img-thumbnail rounded-lg about-img mb-3" alt="picture for about me">
+                <p class=" text-left mx-3">
+                    A self-taught front-end developer driven to improve the user experience, I am enthusiastic about designing and developing a 
+                    friendly user interface. I am always learning new concepts and ideas to stay up to date with new technology. Thoroughly enjoy 
+                    teaching and coaching to enhance public lifestyles.
+                <br>
+                <br>
+                    My primary goal is to expand my front-end web developer skills and construct innovative websites using my acquired developer 
+                    skills to integrate my creativity and people strengths. My secondary goal is to gain flexible employment to foster quality 
+                    family time.
+                <br>
+                <br>    
+                    Currently, I manage a high-volume restaurant. My experience encompasses preparing employees for management using ideas and 
+                    procedures recognized and commended by upper administration. Leadership and working on teams is a specialty.
+                <br>
+                <br>    
+                    My interest in web development began with a personal goal. An avid golfer, I found thousands of websites devoted to improving 
+                    the game. I wanted to create a website for beginners that encompassed both the onset and later development of skills.
+                    My first attempt to create a website was by using WordPress. I realized quickly that just relating information was not exciting 
+                    enough. Further interest introduced coding, which presented options of design and user interaction that left me craving more. 
+                    This first venture into web development motivated me to pursue a different direction for my career. 
+                <br>
+                <br>    
+                    For two years, I acquired front-end developer skills through several online courses offered by Treehouse, Udemy, and 
+                    Freecodecamp and received a Front-End Nanodegree from Udacity. Through, Chingu, I completed a seven-week team and 
+                    solo project and received an offer for a Facilitator position in a program beginning August 2019. I have produced six projects 
+                    that showcase my skills.
+                <br>
+                <br>    
+                    When I am not in front of a computer or at work I enjoy playing with kids or going to the dog park. My daughter is involved 
+                    in cheerleading and my son enjoys playing his French horn.  Certain days you catch me on the strip fencing at my local club. 
+                </p>
+            </div>      
+        </div>      
+    </div>
+
+
+    <!--========== Skills section ==========-->
+    <!-- fourth section break -->
+    <div class="container my-5" id="skills">
+        <h1 class="text-center">Skills</h1>
+        <div class="divider-custom d-flex justify-content-center mb-4">
+            <div class="divider-custom-line bg-dark mr-3 mt-3">
+            </div>
+            <div><i class="fas fa-bug fa-3x"></i></div>
+            <div class="divider-custom-line bg-dark ml-3 mt-3">
+            </div>
+        </div>
+    </div>
+
+    <div class="container skills">
+        <div class="row mb-5">
+            <div class="col">
+                <h2 class="text-center">Technologies</h2>
+                <ul class="list-unstyled pt-3 d-flex justify-content-around flex-wrap">
+                    <li class="mt-3"><img src="image/html5.png" class="img-thumbnail img-design"></li>
+                    <li class="mt-3"><img src="image/css.png" class="img-thumbnail img-design"></li>
+                    <li class="mt-3"><img src="image/github logo.png" class="img-thumbnail img-design"></li>
+                    <li class="mt-3"><img src="image/git logo.png" class="img-thumbnail img-design"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col">
+                <ul class="list-unstyled pt-3 d-flex justify-content-around flex-wrap">
+                    <li class="mt-3"><img src="image/javascript logo.png" class="img-thumbnail img-design"></li>
+                    <li class="mt-3"><img src="image/sass.png" class="img-thumbnail img-design"></li>
+                    <li class="mt-3"><img src="image/jquery logo.png" class="img-thumbnail img-design"></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="row mb-5">
+           <div class="col">
+                <h2 class="text-center">Frameworks</h2>
+                <ul class="list-unstyled pt-3 d-flex justify-content-around flex-wrap">
+                    <li class="mt-3"><img src="image/bootstrap logo.png" class="img-thumbnail img-design"></li>
+                    <li class="mt-3"><img src="image/jasmine logo.png" class="img-thumbnail img-design"></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="row mb-5">      
+            <div class="col">
+                <h2 class="text-center">Soft Skills</h2>
+                <ul class="list-unstyled pt-3 d-flex justify-content-around flex-wrap skill-style ">
+                    <li class="flex-fill mt-3 mr-3">Teamwork</li>
+                    <li class="flex-fill mt-3 mr-3">Problem Sloving</li>
+                    <li class="flex-fill mt-3 mr-3">Adaptability</li>
+                    <li class="flex-fill mt-3 mr-3">Leadership</li>
+                </ul>
+            </div>
+        </div>    
+    </div>
+
+
+    <!--========== Contact me section ==========-->
+    <!-- fifth section break -->
+    <div class="container" id="contactme">
+        <h1 class="text-center">Contact Me</h1>
+        <div class="divider-custom d-flex justify-content-center">
+            <div class="divider-custom-line bg-dark mr-3 mt-3">
+            </div>
+            <div><i class="fas fa-bug fa-3x"></i></div>
+            <div class="divider-custom-line bg-dark ml-3 mt-3">
+            </div>
+        </div>
+    </div>
+
+    <div class="container col-8">
+        <form action="https://formspree.io/mzyqgzlx" method="POST" class="needs-validation" novalidate>
+            <div class="form-group">
+                <label for="formGroupExampleInput">Name</label>
+                <input type="text" class="form-control form-control-lg" id="formGroupExampleInput" required>
+                <div class="invalid-feedback">
+                    Please enter your full name.
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput2">Email Address</label>
+                <input type="email" class="form-control form-control-lg " id="formGroupExampleInput2" required >
+                <div class="invalid-feedback">
+                    Please fill in a valid email address. Example: joedirt@something.com or .net
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput2">Message</label>
+                <textarea type="text" class="form-control form-control-lg " id="formGroupExampleInput2"  required ></textarea>
+                <div class="invalid-feedback">
+                        Please fill in a message.
+                </div>
+            </div>
+            <button type="submit" class="btn btn-info">Send</button>
+        </form>
+
+        <!--========== JavaScript to validate the form fields ==========-->
+        <script src="mainjs.js"></script>
+    </div>
+
+    <!--========== footer ==========-->
+    <footer>
+        <div class="container-fluid mt-5">
+            <div class="row">
+                <div class="col">
+                    <ul class="list-unstyled d-flex justify-content-center mt-3">
+                        <li><a href="https://www.linkedin.com/in/andrew-denson"><i class="fab fa-linkedin fa-2x mr-4"></i></a></li>
+                        <li><a href="https://www.facebook.com/groups/1594816820775537/"><i class="fab fa-facebook-square fa-2x mr-4"></i></a></li>
+                        <li><a href="https://github.com/DrewDen"><i class="fab fa-github-square fa-2x"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+                <div class="row">
+                <div class="col">
+                    <p class="text-center">Copyright &copy Andrew Denson 2019</p>
+                </div>
+                </div>
+        </div>
+    </footer>
+
+    <!--========== Modal Memory Game ===========-->
+    <div class="modal fade" id="memoryGame" tabindex="-1" role="dialog" aria-labelledby="memoryGameTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header d-flex justify-content-end">
+                        <div class="mx-2"><i class="fas fa-bug fa-2x"></i></div>
+                        <h2>Memory Game</h2>
+                </div>      
+                <div class="modal-body">
+                        <img src="image/matching-modal.png" class="img-fluid" alt="Responsive image">
+                        <p class="mt-3">This project is a complete browser-based card matching game (also known as Concentration). The game board consists of sixteen cards arranged on a grid. The deck is made up of eight different pairs of cards, with various symbols. Cards are arranged randomly face down. When a card is clicked, it remains face-up until the next card is clicked. The rules are simple: flip a card and match the symbols. If they match, the cards will stay flipped and turn green. If they don’t, they will both flip over returning face down.</p>
+                        <p>Features are added to the game to enhance gameplay such as a timer and star rating. The timer starts as soon as the first card is flipped over. The timer will stop when all the cards in the game match. The stars give the player a rating of how well they did at the end of the game. When all the cards match, a modal will appear to congratulate the player. The modal will show how long it took, how many stars received and how many moves it took.</p>
+                        <p>The memory game was the first project in which I used HTML, CSS and JavaScript together. I also used DOM manipulation, bowser events and a modal. The challenging parts of this project were adding the time clock and star rating. I based the star rating on how many turns a player took. A ‘turn’ happens after the second card is flipped. After so many turns a star is removed from the group. The challenge is to make fewer turns throughout the game.</p>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-center">
+                        <a href="https://github.com/DrewDen/memory-game-"><button type="button" class="btn btn-outline-info btn-sm mr-4">View project on GitHub</button></a>
+                        <a href="https://drewden.github.io/memory-game-/"><button type="button" class="btn btn-outline-info btn-sm">View the live site</button></a>
+                    </div>
+                </div> 
+                <div class="modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    <!--========== Modal Classic Arcade Clone ========== -->
+    <div class="modal fade" id="classicArcade" tabindex="-1" role="dialog" aria-labelledby="classicArcadeTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header d-flex justify-content-end">
+                        <div class="mx-2"><i class="fas fa-bug fa-2x"></i></div>
+                        <h2>Classic Arcade Clone</h2>
+                </div>      
+                <div class="modal-body">
+                        <img src="image/bug-modal.png" class="img-fluid" alt="Responsive image">
+                        <p class="mt-3">I built a classic arcade clone of the game “Frogger” with a little twist on the characters and enemies.  Visual assets and a game loop engine came with the project. By using these tools, I added several entities to the game, including player characters, objects and enemies.</p>
+                        <p>By using object-oriented programming, I created access and modify objects. By learning this programming, I could design classes capable of creating countless instances of similarly functioning objects.</p>
+                        <p>I mainly used JavaScript throughout the project. I used CSS for a title and bottom-border image. An opportunity came to study and learn a little about HTML 5 Canvas and ES6 with this project. The challenging part was taking a deep dive into JavaScript functions and learning how they worked.</p>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-center">
+                        <a href="https://github.com/DrewDen/Frogger-game"><button type="button" class="btn btn-outline-info btn-sm mr-4">View project on GitHub</button></a>
+                        <a href="https://drewden.github.io/Frogger-game/"><button type="button" class="btn btn-outline-info btn-sm">View the live site</button></a>
+                    </div>
+                </div>  
+                <div class="modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                </div> 
+            </div>
+        </div>
+    </div>
+
+
+    <!--========== Modal Restaurant Review App ==========-->
+    <div class="modal fade" id="restaurantApp" tabindex="-1" role="dialog" aria-labelledby="restaurantAppTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header d-flex justify-content-end">
+                        <div class="mx-2"><i class="fas fa-bug fa-2x"></i></div>
+                        <h2>Restaurant Review App</h2>
+                </div>      
+                <div class="modal-body">
+                        <img src="image/restaurant-modal.png" class="img-fluid" alt="Responsive image">
+                        <p class="mt-3">The goal was to take a static webpage to a mobile-ready web application. The design lacked accessibility and was not responsive to different sized displays. It also lacked features for screen reader use. A service worker was needed to cache files for offline use. </p>
+                        <p>This project used a map box API to show locations of restaurants in New York. This concept could be used for any situation to review restaurants. One of the requirements was not to use a CSS framework. I used Flexbox and CSS position throughout the project. A tab index and aria attributes were used to help with the screen reader issues.</p>
+                        <p>The service worker was used to cache requests to certain assets of the site.  A unique feature was that if the user visited a page it would be accessible offline. A challenge faced for this project was making the offline part available. If the service worker was not shown doing its job, then it would have been useless.</p>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-center">
+                        <a href="https://github.com/DrewDen/restaurant-review"><button type="button" class="btn btn-outline-info btn-sm mr-4">View project on GitHub</button></a>
+                        <a href="https://drewden.github.io/restaurant-review/"><button type="button" class="btn btn-outline-info btn-sm">View the live site</button></a>
+                    </div>
+                </div>  
+                <div class="modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                </div> 
+            </div>
+        </div>
+    </div>
+
+
+    <!--========== Modal Feeder Reader Testing ==========-->
+    <div class="modal fade" id="feedTest" tabindex="-1" role="dialog" aria-labelledby="feedTestTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header d-flex justify-content-end">
+                        <div class="mx-2"><i class="fas fa-bug fa-2x"></i></div>
+                        <h2>Feeder Reader Testing</h2>
+                </div>      
+                <div class="modal-body">
+                        <img src="image/feedertest-modal.png" class="img-fluid" alt="Responsive image">
+                        <p class="mt-3">Test-Driven Development, also known as (TDD), is an approach where a test is written before you write enough production code to fulfill that test and refactor. In this project, I wrote tests for an existing web-based application that reads RSS feeds. By writing useful tests, I analyzed certain aspects of the JavaScript code. This is a great skill to have when changing teams or joining a new company.</p>
+                        <p>Using the Jasmine testing framework, I wrote tests against a pre-existing application. The test checks the logic of the application, along with the event handling and DOM manipulation. A challenge I faced was knowing what a test suite is and how to use it. To understand this better, an experienced developer, who was a friend, did a small exercise with me. Our task was to write tests for a JavaScript calculator. This helped give me a better grasp of the concept.</p>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-center">
+                        <a href="https://github.com/DrewDen/feeder-project"><button type="button" class="btn btn-outline-info btn-sm mr-4">View project on GitHub</button></a>
+                        <a href="https://drewden.github.io/feeder-project/"><button type="button" class="btn btn-outline-info btn-sm">View the live site</button></a>
+                    </div>
+                </div>  
+                <div class="modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                </div> 
+            </div>
+        </div>
+    </div>
+
+
+    <!--========== Modal Donate & Find ==========-->
+    <div class="modal fade" id="donateFind" tabindex="-1" role="dialog" aria-labelledby="donateFindTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header d-flex justify-content-end">
+                        <div class="mx-2"><i class="fas fa-bug fa-2x"></i></div>
+                        <h2>Donate & Find Prototype</h2>
+                </div>      
+                <div class="modal-body">
+                        <img src="image/donatefind-modal.png" class="img-fluid" alt="Responsive image">
+                        <p class="mt-3">A prototype developed and designed for the Chingu Voyage Nine Program.  My team and I decide to take the Front-End role for a project called Donate n Find. The idea was to provide a no-hassle process for donating and finding items, in which the community could see the process uncomplicated. The ideas we had for the project came from scratch and were not cloned from a website.</p>
+                        <p>The Voyage Project was six week-long sprints. During that time, you design, develop and deploy the team's project. An MVP (Minimum Viable Product) was essential to establish early. MVP is defined as the minimum number of features to give the user a solid understanding of the project.</p>
+                        <p>The Tech Stack decided upon HTML, CSS, JQuery, Bootstrap and SASS. Chingu wanted use of Git and GitHub for version control, with storing the main repo on GitHub. Teams decided on a developer workflow for things like, pull requests, merges, merge conflicts and project assignments. We integrated tools like Git and ZenHub to streamline our work along with learning new features from BootStrap and SASS.</p>
+                        <p>The challenging part for this project was that my teammates lived in Australia. The time difference was something we had to focus on. Meetings were planned prior to the actual meetup, along with constant communication on the team’s discord channel.</p>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-center">
+                        <a href="https://github.com/DrewDen/v9-toucans-team-12"><button type="button" class="btn btn-outline-info btn-sm mr-4">View project on GitHub</button></a>
+                        <a href="https://chingu-voyages.github.io/v9-toucans-team-12/"><button type="button" class="btn btn-outline-info btn-sm">View the live site</button></a>
+                    </div>
+                </div>  
+                <div class="modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                </div> 
+            </div>
+        </div>
+    </div>
+
+
+    <!--========== Modal Initab Clone ===========-->
+    <div class="modal fade" id="inatabClone" tabindex="-1" role="dialog" aria-labelledby="initabCloneTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header d-flex justify-content-end">
+                        <div class="mx-2"><i class="fas fa-bug fa-2x"></i></div>
+                        <h2>Initab Clone</h2>
+                </div>      
+                <div class="modal-body">
+                        <img src="image/initab-modal.png" class="img-fluid" alt="Responsive image">
+                        <p class="mt-3">The Initab clone marked my first project into the Chingu program. Chingu is a flexible remote learning program for developers, and aspiring developers, who want to complete projects for the experience. This solo project was a prerequisite for a six week-long team project with a deadline of completion in fourteen days. To assist with the process, a discord channel was set up for anyone completing solo projects for Chingu. The Initab clone was based on a Chrome new tab extension for developers.</p>
+                        <p>This project was coding in HTML, CSS and JavaScript. I used CSS position to mimic the same layout from the app. The requirements stated that the clone did not need all the features from the app, just the design, clock and date. I used JavaScript for the function of the clock. It keeps time and the date for any current time zone displayed. The challenge was the deadline. I had to make sure the time spent was focused on the requirements and not trying to overdo it.</p>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-center">
+                        <a href="https://github.com/DrewDen/Chingu-project"><button type="button" class="btn btn-outline-info btn-sm mr-4">View project on GitHub</button></a>
+                        <a href="https://drewden.github.io/Chingu-project/"><button type="button" class="btn btn-outline-info btn-sm">View the live site</button></a>
+                    </div>
+                </div>  
+                <div class="modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                </div> 
+            </div>
+        </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+</body>
 </html>
