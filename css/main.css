@@ -1,2 +1,228 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+/* line 7, ../main portfolio/sass/main.scss */
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* line 12, ../main portfolio/sass/main.scss */
+h1 {
+  font-family: 'Roboto Slab', serif;
+}
+
+/* line 16, ../main portfolio/sass/main.scss */
+h2 {
+  font-family: 'Roboto Slab', serif;
+}
+
+/* line 20, ../main portfolio/sass/main.scss */
+.modal-body {
+  font-size: .875rem;
+  line-height: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 26, ../main portfolio/sass/main.scss */
+#contactme {
+  margin-top: 150px;
+  margin-bottom: 75px;
+}
+
+/* line 33, ../main portfolio/sass/main.scss */
+.divider-custom {
+  width: 100%;
+}
+
+/* line 36, ../main portfolio/sass/main.scss */
+.divider-custom .divider-custom-line {
+  border-radius: 10px;
+  height: 5px;
+  width: 30%;
+}
+
+/* line 45, ../main portfolio/sass/main.scss */
+.navbar-light {
+  background-color: #c0b4b4e7;
+}
+
+/* line 49, ../main portfolio/sass/main.scss */
+.navbar-light .navbar-brand:hover {
+  color: #065174;
+}
+
+/* line 53, ../main portfolio/sass/main.scss */
+.navbar-light .navbar-toggler {
+  border: 1px outset rgba(169, 169, 169, 0.966);
+}
+
+/* line 56, ../main portfolio/sass/main.scss */
+.navbar-light .navbar-toggler .navbar-toggler-icon {
+  background-image: url("https://mdbootstrap.com/img/svg/hamburger4.svg?color=044f4a");
+}
+
+/* line 62, ../main portfolio/sass/main.scss */
+.navbar-light .navbar-toggler:focus {
+  outline: 0;
+}
+
+/* line 66, ../main portfolio/sass/main.scss */
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  font-size: 20px;
+}
+
+/* line 71, ../main portfolio/sass/main.scss */
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #0c859b;
+}
+
+/* line 79, ../main portfolio/sass/main.scss */
+.jumbotron {
+  background: url("../image/computer-image2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+/* line 87, ../main portfolio/sass/main.scss */
+.jumbotron h1 {
+  font-size: 50px;
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 3px 3px black;
+  font-weight: 900;
+}
+
+/* line 95, ../main portfolio/sass/main.scss */
+.jumbotron p {
+  color: #fff9f9;
+  width: 65%;
+}
+
+/* line 99, ../main portfolio/sass/main.scss */
+.jumbotron .tagline {
+  font-size: 1.4rem;
+  color: white;
+  text-shadow: 2px 2px black;
+  font-weight: 900;
+}
+
+/* line 111, ../main portfolio/sass/main.scss */
+.img-layout .about-img {
+  border: 1px solid darkgray;
+  background-color: whitesmoke;
+  box-shadow: 5px 10px 8px #888888;
+  float: left;
+  margin-right: 1rem;
+  margin-left: .75rem;
+}
+
+/* line 119, ../main portfolio/sass/main.scss */
+.img-layout p {
+  font-size: .875rem;
+  line-height: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 850px) {
+  /* line 130, ../main portfolio/sass/main.scss */
+  .img-layout .about-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+  /* line 136, ../main portfolio/sass/main.scss */
+  .img-layout p {
+    font-size: .875rem;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    clear: both;
+  }
+}
+
+/* line 149, ../main portfolio/sass/main.scss */
+.skills .img-design {
+  box-shadow: 2px 5px #646970;
+  border: 1px solid black;
+}
+
+/* line 153, ../main portfolio/sass/main.scss */
+.skills .skill-style {
+  font-size: 36px;
+  text-align: center;
+}
+
+/* line 158, ../main portfolio/sass/main.scss */
+.skills .skill-style .flex-fill {
+  font-family: 'Roboto Slab', serif;
+  font-size: 24px;
+  background-color: rgba(173, 233, 233, 0.507);
+  border: 1px solid rgba(48, 43, 43, 0.822);
+  border-radius: 5px;
+}
+
+/* line 171, ../main portfolio/sass/main.scss */
+.card h5 {
+  font-family: 'Roboto Slab', serif;
+}
+
+/* line 174, ../main portfolio/sass/main.scss */
+.card .project-modal:hover .card-img-top {
+  opacity: .2;
+  cursor: pointer;
+}
+
+/* line 179, ../main portfolio/sass/main.scss */
+.card .project-modal:hover .middle {
+  opacity: 1;
+}
+
+/* line 183, ../main portfolio/sass/main.scss */
+.card .middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* line 194, ../main portfolio/sass/main.scss */
+.card .btn:focus {
+  box-shadow: none;
+}
+
+/* line 198, ../main portfolio/sass/main.scss */
+.card .card-body {
+  font-family: 'Roboto Slab', serif;
+  height: 55px;
+  background-color: rgba(173, 233, 233, 0.507);
+}
+
+/* line 205, ../main portfolio/sass/main.scss */
+footer {
+  background-color: #e6e0e0de;
+}
+
+/* line 208, ../main portfolio/sass/main.scss */
+footer li a:link {
+  color: black;
+}
+
+/* line 212, ../main portfolio/sass/main.scss */
+footer li a:visited {
+  color: black;
+}
+
+/* line 216, ../main portfolio/sass/main.scss */
+footer li a:hover {
+  color: #427c97;
+}
 
 /*# sourceMappingURL=main.css.map */
